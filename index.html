@@ -151,7 +151,8 @@
       overflow: hidden;
     }
     /* ===== 로고 시그니처 스타일 ===== */
-.logo a {
+
+    .logo a {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -160,10 +161,12 @@
   transition: all 0.3s ease;
 }
 
-.logo a span {
-  color: #FF69B4; /* 진한 핑크 */
+
+    .logo a span {
+  color: #FF69B4 !important; /* 진한 핑크 강제 적용 */
   font-weight: 800;
 }
+
 
 .logo a:hover {
   color: #FF69B4;
@@ -327,4 +330,5 @@
   <script src="./js/main.js"></script>
 </body>
 </html>
+
 
