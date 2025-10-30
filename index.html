@@ -150,6 +150,32 @@
       border-radius: 20px;
       overflow: hidden;
     }
+    /* ===== 로고 시그니처 스타일 ===== */
+.logo a {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.logo a span {
+  color: #FF69B4; /* 진한 핑크 */
+  font-weight: 800;
+}
+
+.logo a:hover {
+  color: #FF69B4;
+  transform: scale(1.05);
+}
+
+/* 로고 영역 전체 가운데 정렬 */
+.logo {
+  text-align: center;
+  margin: 30px 0;
+}
+
   </style>
 </head>
 
@@ -159,21 +185,22 @@
   <div class="main-container">
 
     <!-- ===== Aside Start ===== -->
-    <div class="aside">
-      <div class="logo">
-        <a href="#"><span>🌸</span> Taehui’s Portfolio</a>
-      </div>
-      <div class="nav-toggler">
-        <span></span>
-      </div>
-      <ul class="nav">
-        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-        <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
-        <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-        <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
-      </ul>
-    </div>
+<div class="aside">
+  <div class="logo">
+    <a href="#">olxohee<span>'s</span> Portfolio</a>
+  </div>
+  <div class="nav-toggler">
+    <span></span>
+  </div>
+  <ul class="nav">
+    <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+    <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+    <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+    <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+  </ul>
+</div>
+
     <!-- ===== Aside End ===== -->
 
     <!-- ===== Main Content Start ===== -->
@@ -300,3 +327,4 @@
   <script src="./js/main.js"></script>
 </body>
 </html>
+
